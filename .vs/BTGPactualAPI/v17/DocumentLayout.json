@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\services\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:services\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\controllers\\fondoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:controllers\\fondoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\models\\fondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:models\\fondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\stive\\source\\repos\\btgpactualapi\\models\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:models\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransaccionesController.cs",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Controllers\\TransaccionesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransaccionesController.cs",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Controllers\\TransaccionesController.cs",
+              "RelativeToolTip": "Controllers\\TransaccionesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T16:46:37.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FondosController.cs",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Controllers\\FondosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FondosController.cs",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Controllers\\FondosController.cs",
+              "RelativeToolTip": "Controllers\\FondosController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwDgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:24:01.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MongoDBService.cs",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Services\\MongoDBService.cs",
+              "RelativeDocumentMoniker": "Services\\MongoDBService.cs",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Services\\MongoDBService.cs",
+              "RelativeToolTip": "Services\\MongoDBService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwCQAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:25:04.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Models\\Transaccion.cs",
+              "RelativeToolTip": "Models\\Transaccion.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:26:05.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowBwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:34:49.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T18:34:53.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Fondo.cs",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Models\\Fondo.cs",
+              "RelativeDocumentMoniker": "Models\\Fondo.cs",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Models\\Fondo.cs",
+              "RelativeToolTip": "Models\\Fondo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:25:55.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:22:31.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T18:34:59.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T02:28:20.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:04:29.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MongoDBSettings.cs",
+              "DocumentMoniker": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Models\\MongoDBSettings.cs",
+              "RelativeDocumentMoniker": "Models\\MongoDBSettings.cs",
+              "ToolTip": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\Models\\MongoDBSettings.cs",
+              "RelativeToolTip": "Models\\MongoDBSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:25:30.212Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
