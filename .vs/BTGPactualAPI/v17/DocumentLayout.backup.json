@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\camiloortiz\\source\\repos\\fundsapi-backend\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|c:\\users\\camiloortiz\\source\\repos\\fundsapi-backend\\controllers\\fondoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3306CC68-9AF3-4BC6-82EE-00C9ADC17C91}|BTGPactualAPI.csproj|solutionrelative:controllers\\fondoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,24 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\Models\\Cliente.cs",
-              "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T13:05:59.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -71,11 +54,12 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-17T04:17:05.589Z"
+              "WhenOpened": "2024-07-17T04:17:05.589Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FondosController.cs",
               "DocumentMoniker": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\Controllers\\FondosController.cs",
               "RelativeDocumentMoniker": "Controllers\\FondosController.cs",
@@ -88,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MongoDBSettings.cs",
               "DocumentMoniker": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\Models\\MongoDBSettings.cs",
               "RelativeDocumentMoniker": "Models\\MongoDBSettings.cs",
@@ -96,11 +80,12 @@
               "RelativeToolTip": "Models\\MongoDBSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T02:51:40.947Z"
+              "WhenOpened": "2024-07-17T02:51:40.947Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Fondo.cs",
               "DocumentMoniker": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\Models\\Fondo.cs",
               "RelativeDocumentMoniker": "Models\\Fondo.cs",
@@ -108,11 +93,12 @@
               "RelativeToolTip": "Models\\Fondo.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA3wA8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T23:03:48.324Z"
+              "WhenOpened": "2024-07-16T23:03:48.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -124,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "TransaccionesController.cs",
               "DocumentMoniker": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\Controllers\\TransaccionesController.cs",
               "RelativeDocumentMoniker": "Controllers\\TransaccionesController.cs",
@@ -136,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MongoDBService.cs",
               "DocumentMoniker": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\Services\\MongoDBService.cs",
               "RelativeDocumentMoniker": "Services\\MongoDBService.cs",
@@ -148,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Transaccion.cs",
               "DocumentMoniker": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\Models\\Transaccion.cs",
               "RelativeDocumentMoniker": "Models\\Transaccion.cs",

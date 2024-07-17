@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\BTGPactualAPI.csproj": {}
+    "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\BTGPactualAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\BTGPactualAPI.csproj": {
+    "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\BTGPactualAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\BTGPactualAPI.csproj",
+        "projectUniqueName": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\BTGPactualAPI.csproj",
         "projectName": "BTGPactualAPI",
-        "projectPath": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\BTGPactualAPI.csproj",
-        "packagesPath": "C:\\Users\\stive\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stive\\source\\repos\\BTGPactualAPI\\obj\\",
+        "projectPath": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\BTGPactualAPI.csproj",
+        "packagesPath": "C:\\Users\\camiloortiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\camiloortiz\\source\\repos\\FundsAPI-Backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\stive\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\camiloortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

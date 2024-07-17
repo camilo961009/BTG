@@ -1,9 +1,13 @@
 ﻿using BTGPactualAPI.Models;
 using BTGPactualAPI.Services;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BTGPactualAPI.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
+    [EnableCors("AllowSpecificOrigin")]
     public class TransaccionesController : ControllerBase
     {
         private readonly MongoDBService _mongoDBService;
