@@ -26,11 +26,14 @@ namespace BTGPactualAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(Fondo nuevoFondo)
         {
-            // Restar el MontoMinimo al monto inicial
-            montoInicial -= nuevoFondo.MontoMinimo;
+            if (montoInicial < nuevoFondo.MontoMinimo)
+            {
+                return BadRequest($"No tiene saldo disponible para vincularse al fondo {nuevoFondo.Nombre}");
+            }
 
-            // Actualizar el MontoInicial en el nuevo fondo
+            montoInicial -= nuevoFondo.MontoMinimo;
             nuevoFondo.MontoInicial = montoInicial;
+
 
             // Crear el fondo en la base de datos
             await _mongoDBService.CreateFondoAsync(nuevoFondo);
