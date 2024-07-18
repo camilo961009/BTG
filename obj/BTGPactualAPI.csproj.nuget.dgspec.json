@@ -61,6 +61,14 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.27.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           },
           "imports": [

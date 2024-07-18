@@ -10,6 +10,18 @@ builder.Services.Configure<MongoDBSettings>(
 
 builder.Services.AddSingleton<MongoDBService>();
 
+builder.Services.AddSingleton<EmailService>(provider =>
+{
+    var configuration = provider.GetRequiredService<IConfiguration>();
+    return new EmailService(
+        configuration["EmailSettings:FromEmailAddress"],
+        configuration["EmailSettings:SmtpServer"],
+        int.Parse(configuration["EmailSettings:SmtpPort"]),
+        configuration["EmailSettings:SmtpUsername"],
+        configuration["EmailSettings:SmtpPassword"]
+    );
+});
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

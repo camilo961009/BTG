@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BTGPactualAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71eced609a77c6f1924626dc76789504b770e282")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0594d4bd39662a3d22cd89eb2fd9682e7abbada9")]
 [assembly: System.Reflection.AssemblyProductAttribute("BTGPactualAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BTGPactualAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
