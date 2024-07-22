@@ -1,5 +1,5 @@
-using BTGPactualAPI.Models;
-using BTGPactualAPI.Services;
+using BackEndAPIFondosBTG.Models;
+using BackEndAPIFondosBTG.Services;
 using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);

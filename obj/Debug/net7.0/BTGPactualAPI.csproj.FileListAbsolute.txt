@@ -1,0 +1,9 @@
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\obj\Debug\net7.0\BTGPactualAPI.csproj.AssemblyReference.cache
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\obj\Debug\net7.0\BTGPactualAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\obj\Debug\net7.0\BTGPactualAPI.AssemblyInfoInputs.cache
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\obj\Debug\net7.0\BTGPactualAPI.AssemblyInfo.cs
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\obj\Debug\net7.0\BTGPactualAPI.csproj.CoreCompileInputs.cache
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\obj\Debug\net7.0\BTGPactualAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\obj\Debug\net7.0\BTGPactualAPI.RazorAssemblyInfo.cache
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\obj\Debug\net7.0\BTGPactualAPI.RazorAssemblyInfo.cs
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\obj\Debug\net7.0\BTGPactualAPI.sourcelink.json

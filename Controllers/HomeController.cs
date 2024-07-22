@@ -1,8 +1,8 @@
-using BTGPactualAPI.Models;
+using BackEndAPIFondosBTG.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace BTGPactualAPI.Controllers
+namespace BackEndAPIFondosBTG.Controllers
 {
     public class HomeController : Controller
     {

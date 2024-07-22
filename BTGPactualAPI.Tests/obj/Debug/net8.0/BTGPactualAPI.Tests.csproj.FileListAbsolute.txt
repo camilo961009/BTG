@@ -1,0 +1,6 @@
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\BTGPactualAPI.Tests\obj\Debug\net8.0\BTGPactualAPI.Tests.csproj.AssemblyReference.cache
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\BTGPactualAPI.Tests\obj\Debug\net8.0\BTGPactualAPI.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\BTGPactualAPI.Tests\obj\Debug\net8.0\BTGPactualAPI.Tests.AssemblyInfoInputs.cache
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\BTGPactualAPI.Tests\obj\Debug\net8.0\BTGPactualAPI.Tests.AssemblyInfo.cs
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\BTGPactualAPI.Tests\obj\Debug\net8.0\BTGPactualAPI.Tests.csproj.CoreCompileInputs.cache
+C:\Users\camiloortiz\source\repos\FundsAPI-Backend\BTGPactualAPI.Tests\obj\Debug\net8.0\BTGPactualAPI.Tests.sourcelink.json

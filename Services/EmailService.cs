@@ -1,10 +1,11 @@
-﻿using System.Net;
-using System.Net.Mail;
+﻿using System.Net.Mail;
+using System.Net;
 
-namespace BTGPactualAPI.Services
+namespace BackEndAPIFondosBTG.Services
 {
     public class EmailService
     {
+
         private readonly SmtpClient _smtpClient;
         private readonly string _fromEmailAddress;
 

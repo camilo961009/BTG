@@ -20,7 +20,7 @@ namespace BTGPactualAPI.Controllers
         public FondosController(MongoDBService mongoDBService, EmailService emailService)
         {
             _mongoDBService = mongoDBService;
-            _emailService = emailService; // Inyectar el servicio de correo electrónico
+            _emailService = emailService;
         }
 
         [HttpGet]
@@ -38,8 +38,6 @@ namespace BTGPactualAPI.Controllers
             montoInicial -= nuevoFondo.MontoMinimo;
             nuevoFondo.MontoInicial = montoInicial;
 
-
-            // Crear el fondo en la base de datos
             await _mongoDBService.CreateFondoAsync(nuevoFondo);
 
             var transaccion = new Transaccion
@@ -50,9 +48,7 @@ namespace BTGPactualAPI.Controllers
                 FondoId = nuevoFondo.Id
             };
             await _mongoDBService.CreateTransaccionAsync(transaccion);
-
-            // Aquí enviamos el correo electrónico
-            string mensajeCorreo = $"Se ha creado un nuevo fondo: {nuevoFondo.Nombre}. Monto mínimo: {nuevoFondo.MontoMinimo}";
+            string mensajeCorreo = $"Se ha creado un nuevo fondo: {nuevoFondo.Nombre}. Monto: {nuevoFondo.MontoMinimo}";
             await _emailService.SendEmailAsync(correo, "Nuevo fondo creado", mensajeCorreo);
 
             return CreatedAtAction(nameof(Get), new { id = nuevoFondo.Id }, nuevoFondo);

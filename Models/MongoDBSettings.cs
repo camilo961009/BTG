@@ -1,4 +1,4 @@
-﻿namespace BTGPactualAPI.Models
+﻿namespace BackEndAPIFondosBTG.Models
 {
     public class MongoDBSettings
     {

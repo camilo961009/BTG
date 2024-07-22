@@ -1,39 +1,40 @@
-﻿using BTGPactualAPI.Models;
+﻿using BackEndAPIFondosBTG.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
-namespace BTGPactualAPI.Services
+namespace BackEndAPIFondosBTG.Services
 {
     public class MongoDBService
     {
-        private readonly IMongoCollection<Fondo> _fondosCollection;
-        private readonly IMongoCollection<Transaccion> _transaccionesCollection;
+        
+        private readonly IMongoCollection<Fund> _fondosCollection;
+        private readonly IMongoCollection<Transaction> _transaccionesCollection;
 
         public MongoDBService(IOptions<MongoDBSettings> mongoDBSettings)
         {
             var mongoClient = new MongoClient(mongoDBSettings.Value.ConnectionString);
             var mongoDatabase = mongoClient.GetDatabase(mongoDBSettings.Value.DatabaseName);
 
-            _fondosCollection = mongoDatabase.GetCollection<Fondo>(mongoDBSettings.Value.FondosCollectionName);
-            _transaccionesCollection = mongoDatabase.GetCollection<Transaccion>(mongoDBSettings.Value.TransaccionesCollectionName);
+            _fondosCollection = mongoDatabase.GetCollection<Fund>(mongoDBSettings.Value.FondosCollectionName);
+            _transaccionesCollection = mongoDatabase.GetCollection<Transaction>(mongoDBSettings.Value.TransaccionesCollectionName);
         }
 
-        public async Task<List<Fondo>> GetFondosAsync() =>
+        public async Task<List<Fund>> GetFondosAsync() =>
             await _fondosCollection.Find(_ => true).ToListAsync();
 
-        public async Task CreateFondoAsync(Fondo nuevoFondo) =>
+        public async Task CreateFondoAsync(Fund nuevoFondo) =>
             await _fondosCollection.InsertOneAsync(nuevoFondo);
 
-        public async Task<Fondo?> GetFondoByIdAsync(string id) =>
+        public async Task<Fund?> GetFondoByIdAsync(string id) =>
             await _fondosCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
 
         public async Task RemoveFondoAsync(string id) =>
             await _fondosCollection.DeleteOneAsync(x => x.Id == id);
 
-        public async Task<List<Transaccion>> GetTransaccionesAsync() =>
+        public async Task<List<Transaction>> GetTransaccionesAsync() =>
             await _transaccionesCollection.Find(_ => true).ToListAsync();
 
-        public async Task CreateTransaccionAsync(Transaccion nuevaTransaccion) =>
+        public async Task CreateTransaccionAsync(Transaction nuevaTransaccion) =>
             await _transaccionesCollection.InsertOneAsync(nuevaTransaccion);
     }
 }
