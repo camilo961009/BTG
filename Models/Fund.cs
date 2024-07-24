@@ -8,11 +8,23 @@ namespace BackEndAPIFondosBTG.Models
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string? Id { get; set; } = null!;
-        public string Nombre { get; set; } = null!;
-        public decimal MontoMinimo { get; set; }
-        public string Categoria { get; set; } = null!;
-        public decimal MontoInicial { get; set; }
-        public string Correo { get; set; } = null!;
-        public string Celular { get; set; } = null!;
+
+        [BsonElement("nombre")]
+        public string nombre { get; set; } = null!;
+
+        [BsonElement("monto_vinculacion_fondo")]
+        public decimal montoVinculacionFondo { get; set; }
+       
+        [BsonElement("categoria")]
+        public string categoria { get; set; } = null!;
+
+        [BsonElement("monto_inicial")] 
+        public decimal montoInicial { get; set; }
+
+        [BsonElement("correo")] 
+        public string correo { get; set; } = null!;
+
+        [BsonElement("celular")] 
+        public string celular { get; set; } = null!;
     }
 }

@@ -6,7 +6,7 @@ C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\MongoDB.B
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\MongoDB.Driver.dll
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\MongoDB.Driver.Core.dll
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
-C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\nunit.framework.dll
+C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\StandardSocketsHttpHandler.dll
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\TestableIO.System.IO.Abstractions.dll
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\TestableIO.System.IO.Abstractions.Wrappers.dll
@@ -43,7 +43,7 @@ C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\Microsoft
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\Moq.dll
-C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\nunit.framework.dll
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\nunit.framework.legacy.dll
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\SharpCompress.dll
 C:\Users\camiloortiz\source\repos\BackEndAPIFondosBTG\bin\Debug\net8.0\Snappier.dll

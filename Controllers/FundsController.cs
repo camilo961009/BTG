@@ -36,44 +36,43 @@ namespace BackEndAPIFondosBTG.Controllers
         }
 
         [HttpGet]
-        public async Task<List<Fund>> Get() =>
+        public async Task<List<Fund>> GetFund() =>
             await _mongoDBService.GetFondosAsync();
 
         [HttpPost]
-        public async Task<IActionResult> Post(Fund nuevoFondo)
+        public async Task<IActionResult> createFund(Fund nuevoFondo)
         {
-            if (montoInicial < nuevoFondo.MontoMinimo)
+            if (montoInicial < nuevoFondo.montoVinculacionFondo)
             {
-                return BadRequest($"No tiene saldo disponible para vincularse al fondo {nuevoFondo.Nombre}");
+                return BadRequest($"No tiene saldo disponible para vincularse al fondo {nuevoFondo.nombre}");
             }
 
-            montoInicial -= nuevoFondo.MontoMinimo;
-            nuevoFondo.MontoInicial = montoInicial;
+            montoInicial -= nuevoFondo.montoVinculacionFondo;
+            nuevoFondo.montoInicial = montoInicial;
 
             await _mongoDBService.CreateFondoAsync(nuevoFondo);
-            await RegistrarTransaccionAsync("Creación", nuevoFondo.MontoMinimo, nuevoFondo.Id);
+            await RegistrarTransaccionAsync("Creación", nuevoFondo.montoVinculacionFondo, nuevoFondo.Id);
 
-            if (!string.IsNullOrEmpty(nuevoFondo.Celular))
+            if (!string.IsNullOrEmpty(nuevoFondo.celular))
             {
                 var response = await _vonageClient.SmsClient.SendAnSmsAsync(new SendSmsRequest
                 {
-                    To = "57" + nuevoFondo.Celular,
+                    To = "57" + nuevoFondo.celular,
                     From = "YourAppName",
-                    Text = $"Se ha creado un nuevo fondo: {nuevoFondo.Nombre}. Monto: {nuevoFondo.MontoMinimo}"
+                    Text = $"Se ha creado un nuevo fondo: {nuevoFondo.nombre}. monto: {nuevoFondo.montoVinculacionFondo}"
                 });
             }
             else
             {
-                await _emailService.SendEmailAsync(nuevoFondo.Correo, "Nuevo fondo creado",
-                                               $"Se ha creado un nuevo fondo: {nuevoFondo.Nombre}. Monto: {nuevoFondo.MontoMinimo}");
+                await _emailService.SendEmailAsync(nuevoFondo.correo, "Nuevo fondo creado",
+                                               $"Se ha creado un nuevo fondo: {nuevoFondo.nombre}. monto: {nuevoFondo.montoVinculacionFondo}");
             }
- 
 
-            return CreatedAtAction(nameof(Get), new { id = nuevoFondo.Id }, nuevoFondo);
+            return CreatedAtAction(nameof(GetFund), new { id = nuevoFondo.Id }, nuevoFondo);
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> deleteFund(string id)
         {
             var fondo = await _mongoDBService.GetFondoByIdAsync(id);
             if (fondo == null)
@@ -81,11 +80,11 @@ namespace BackEndAPIFondosBTG.Controllers
                 return NotFound();
             }
 
-            montoInicial += fondo.MontoMinimo;
-            fondo.MontoInicial = montoInicial;
+            montoInicial += fondo.montoVinculacionFondo;
+            fondo.montoInicial = montoInicial;
 
             await _mongoDBService.RemoveFondoAsync(id);
-            await RegistrarTransaccionAsync("Eliminación", fondo.MontoMinimo, id);
+            await RegistrarTransaccionAsync("Eliminación", fondo.montoVinculacionFondo, id);
 
             return NoContent();
         }
@@ -100,9 +99,9 @@ namespace BackEndAPIFondosBTG.Controllers
             {
                 var transaccion = new Transaction
                 {
-                    Fecha = DateTime.Now,
-                    Tipo = tipo,
-                    Monto = monto,
+                    fecha = DateTime.Now,
+                    tipo = tipo,
+                    monto = monto,
                     FondoId = fondoId
                 };
                 await _mongoDBService.CreateTransaccionAsync(transaccion);

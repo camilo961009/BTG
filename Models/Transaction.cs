@@ -10,13 +10,13 @@ namespace BackEndAPIFondosBTG.Models
         public string Id { get; set; } = null!;
 
         [BsonElement("fecha")]
-        public DateTime Fecha { get; set; }
+        public DateTime fecha { get; set; }
 
         [BsonElement("tipo")]
-        public string Tipo { get; set; } = null!;
+        public string tipo { get; set; } = null!;
 
         [BsonElement("monto")]
-        public decimal Monto { get; set; }
+        public decimal monto { get; set; }
 
         [BsonElement("fondoId")]
         public string FondoId { get; set; } = null!;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3ESDAac6abs=",
+  "dgSpecHash": "epT8UMoEZRQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\camiloortiz\\source\\repos\\BackEndAPIFondosBTG\\BackEndAPIFondosBTG.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\camiloortiz\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\camiloortiz\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\camiloortiz\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
+    "C:\\Users\\camiloortiz\\.nuget\\packages\\coverlet.msbuild\\6.0.2\\coverlet.msbuild.6.0.2.nupkg.sha512",
     "C:\\Users\\camiloortiz\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\camiloortiz\\.nuget\\packages\\enums.net\\5.0.0\\enums.net.5.0.0.nupkg.sha512",
     "C:\\Users\\camiloortiz\\.nuget\\packages\\epoch.net\\4.1.0\\epoch.net.4.1.0.nupkg.sha512",
