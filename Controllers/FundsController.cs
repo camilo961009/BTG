@@ -31,7 +31,7 @@ namespace BackEndAPIFondosBTG.Controllers
         {
             _mongoDBService = mongoDBService;
             _emailService = emailService;
-            var credentials = Credentials.FromApiKeyAndSecret("a66dc43e", "HT3DwTBsBVTcdzdV");
+            var credentials = Credentials.FromApiKeyAndSecret("5b328fe1", "EFjoN5vHO78bKY3U");
             _vonageClient = new VonageClient(credentials);
         }
 
